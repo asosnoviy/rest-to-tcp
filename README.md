@@ -36,7 +36,10 @@ curl --location --request GET '192.168.41.202:8050/simpletcp' \
 
 ## Пример использования:
 
-Запустить или установить как службу.
+Запустить  
+`rest-to-tcp.exe`  
+или установить как службу  
+`sc create rest2tcp binpath="C:\Program Files\rest-to-tcp\rest-to-tcp.exe" DisplayName="Rest to TCP proxy"`
 
 
 ```bsl
